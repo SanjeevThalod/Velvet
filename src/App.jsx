@@ -10,7 +10,7 @@ function App() {
         </p>
       <div className='text'>
 
-        Comming soon
+        Coming soon
 
       </div>
     </div>
