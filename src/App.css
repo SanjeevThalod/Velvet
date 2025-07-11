@@ -15,13 +15,19 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .body .text {
   width: 100%;
   text-align: center;
-  position: absolute; /* changed from relative */
-  top: 23%; /* try this to start — adjust based on where car ends */
+  position: absolute;
+  /* changed from relative */
+  top: 23%;
+  /* try this to start — adjust based on where car ends */
   left: 50%;
   transform: translateX(-50%);
   font-size: 106px;
@@ -44,14 +50,19 @@
 .body .logo>.alta {
   font-family: 'Alta';
   font-size: 42px;
-  color: white;
+  background: linear-gradient(90deg, #FFD700, #FFB700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   width: 100%;
   text-align: center;
   margin-top: 10px;
   font-weight: 100;
   letter-spacing: 2.5px;
+  background-clip: text;
+  color: transparent;
 }
-.body .logo .exp{
+
+.body .logo .exp {
   font-size: 28px;
   font-family: alta;
   color: white;
@@ -60,10 +71,22 @@
   text-align: center;
 }
 
+.body .footer{
+  color: white;
+  z-index: 5;
+  font-family: 'Manrope';
+  font-size: 24px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
 @media screen and (max-width: 768px) {
   .body .text {
     top: 25%;
     font-size: 64px;
+  }
+  .body .footer{
+    font-size: 18px;
   }
 }
 
@@ -71,5 +94,8 @@
   .body .text {
     top: 28%;
     font-size: 48px;
+  }
+  .body .footer{
+    font-size: 16px;
   }
 }
