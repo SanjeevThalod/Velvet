@@ -3,6 +3,7 @@ import img from "./assets/velvet.png"
 import CarLogo from './Components/CarLogo.jsx'
 import Chauffeurs from './Components/Chaffeurs.jsx'
 import ClassApart from './Components/ClassApart.jsx'
+import Footer from './Components/Footer.jsx'
 import Hero from './Components/Hero.jsx'
 import HowToBook from './Components/HowToBook.jsx'
 
@@ -14,6 +15,7 @@ function App() {
       <ClassApart/>
       <HowToBook/>
       <Chauffeurs/>
+      <Footer/>
     </>
     // <div className='body' style={{ backgroundImage: `url(${img})` }}>
     //   <p className='logo'>
