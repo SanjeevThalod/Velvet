@@ -12,7 +12,7 @@ function HowToBook() {
   useEffect(() => {
     const interval = setInterval(() => {
       setMode(prev => (prev === 'online' ? 'offline' : 'online'));
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(interval); // cleanup on unmount
   }, []);
