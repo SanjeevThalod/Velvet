@@ -1,11 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../Styles/howToBook.css';
 import on1 from "../assets/HowToBook/on1.png";
 import on2 from "../assets/HowToBook/on2.png";
 import of1 from "../assets/HowToBook/of1.png";
 
 function HowToBook() {
+
   const [mode, setMode] = useState('online');
+
+  // Auto-switch every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setMode(prev => (prev === 'online' ? 'offline' : 'online'));
+    }, 5000);
+
+    return () => clearInterval(interval); // cleanup on unmount
+  }, []);
 
   return (
     <section className="how-to-book">
