@@ -1,0 +1,109 @@
+.how-to-book {
+  background-color: black;
+  color: white;
+  padding: 60px 120px;
+  font-family: 'Manrope';
+}
+
+.how-to-book h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.gold-underline {
+  width: 100px;
+  height: 2px;
+  background: #FFD700;
+  margin-bottom: 40px;
+}
+
+.toggle-buttons {
+  display: inline-flex;
+  border: 1px solid #FFD700;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-left: 35%;
+}
+
+.toggle-buttons button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 12px 64px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.toggle-buttons .active {
+  background: linear-gradient(90deg, #FFD700, #FFB700);
+  color: black;
+}
+
+.booking-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step {
+  flex: 1;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Manrope';
+}
+
+.step h3 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.step h3 span {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.step p {
+  color: #999;
+  font-size: 36px;
+  margin: 10px 0 20px;
+}
+
+.step img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.footer-note {
+  margin-top: 40px;
+  font-style: italic;
+  color: #888;
+  font-size: 14px;
+}
+.booking-offline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.booking-cont{
+  width: 60%;
+}
+.booking-cont div{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.booking-cont h2{
+  margin: 15px 0px;
+}
+.booking-cont > p{
+  color: gray;
+  margin-bottom: 5px;
+}

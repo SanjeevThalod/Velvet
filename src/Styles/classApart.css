@@ -1,0 +1,75 @@
+.class-apart {
+  padding: 60px 120px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Manrope';
+}
+
+.class-apart h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background: #FFD700;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.feature-card {
+  background-color: #111;
+  border: 1px solid #FFD700;
+  padding: 30px;
+  width: 25%;
+  height: 200px;
+  color: white;
+  position: relative;
+}
+
+.feature-card .icon {
+  color: #FFD700;
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.feature-card p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Asymmetric corner styles */
+.corner-0 {
+  border-top-left-radius: 50px;
+}
+
+.corner-1 {
+  border-bottom-right-radius: 50px;
+}
+
+.corner-2 {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}

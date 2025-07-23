@@ -1,0 +1,95 @@
+.chauffeurs {
+  position: relative;
+  height: 110vh; /* More height as per image */
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.chauffeurs-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+
+.chauffeurs-overlay {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.chauffeurs-title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.5); /* subtle glass feel */
+  backdrop-filter: blur(4px);
+  margin-top: 10px;
+}
+
+.chauffeurs-cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.chauffeur-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #d9a85c;
+  width: 300px;
+  min-height: 250px;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  box-sizing: border-box;
+  color: white;
+  position: relative;
+}
+
+.left-card {
+  border-top-left-radius: 80px;
+}
+
+.mid-card {
+  border-radius: 0;
+}
+
+.right-card {
+  border-bottom-right-radius: 80px;
+}
+
+.chauffeur-icon {
+  color: #d9a85c;
+  font-size: 1.6rem;
+}
+
+.chauffeur-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.chauffeurs-footer {
+  font-size: 1rem;
+  color: #eee;
+  margin-top: 40px;
+}
