@@ -11,16 +11,12 @@
   background: rgba(0, 0, 0, 0.3);
   border-radius: 0.625rem; /* 10px */
   padding: 1rem 1.5rem; /* 16px 24px */
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  border: 1px solid #F1BE71;
 }
 
 .logo h1 {
   margin: 0;
-  font-size: 1.75rem; /* 28px */
-  background: linear-gradient(90deg, #FFD700, #FFB700, #FFA500);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 1.75rem;
   font-weight: bold;
   letter-spacing: 0.0625rem; /* 1px */
   font-family: 'Alta', sans-serif;
@@ -48,15 +44,15 @@
   font-size: 1rem;
 }
 
-.nav-links a:hover {
-  color: #FFD700;
-}
 
 .book-btn {
   padding: 0.5rem 1rem; /* 8px 16px */
-  border: 1px solid #FFD700;
+  border: 1px solid #F1BE71;
   background: transparent;
-  color: #FFD700;
+  background: linear-gradient(90deg,#F1BE71,#A6662E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
   border-radius: 0.375rem; /* 6px */
   cursor: pointer;
   font-weight: 500;
@@ -64,10 +60,6 @@
   font-size: 1rem;
 }
 
-.book-btn:hover {
-  background: #FFD700;
-  color: black;
-}
 
 /* --------------------------- */
 /* 🎯 Responsive Design */

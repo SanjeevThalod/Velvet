@@ -5,3 +5,10 @@
 body{
   background-color: black;
 }
+.gradient-text {
+  background: linear-gradient(90deg,#F1BE71,#A6662E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent;
+}

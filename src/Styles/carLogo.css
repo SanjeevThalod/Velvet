@@ -8,12 +8,12 @@
 
 .car-logo-track {
   display: flex;
-  width: max-content;
-  animation: scrollLeft 20s linear infinite;
   gap: 120px;
-  width: 90%;
+  width: max-content;
+  animation: scrollLeft 30s linear infinite;
   align-items: center;
 }
+
 .car-logo-container {
   width: 100%;
   overflow: hidden;

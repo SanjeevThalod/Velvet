@@ -3,6 +3,9 @@
   color: white;
   padding: 3.75rem 7.5rem; /* 60px 120px */
   font-family: 'Manrope';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .how-to-book h2 {
@@ -14,17 +17,16 @@
 .gold-underline {
   width: 6.25rem; /* 100px */
   height: 0.125rem; /* 2px */
-  background: #FFD700;
+  background: linear-gradient(90deg,#F1BE71,#A6662E);
   margin-bottom: 2.5rem; /* 40px */
 }
 
 .toggle-buttons {
   display: inline-flex;
-  border: 0.0625rem solid #FFD700; /* 1px */
+  border: 0.0625rem solid #F1BE71; /* 1px */
   border-radius: 0.25rem; /* 4px */
   overflow: hidden;
-  margin-bottom: 2.5rem; /* 40px */
-  margin-left: 35%;
+  margin-bottom: 2.5rem; 
 }
 
 .toggle-buttons button {
@@ -38,7 +40,7 @@
 }
 
 .toggle-buttons .active {
-  background: linear-gradient(90deg, #FFD700, #FFB700);
+  background: linear-gradient(90deg, rgba(241, 190, 113, 1), rgba(146, 99, 29, 1));
   color: black;
 }
 
@@ -97,9 +99,13 @@
   align-items: center;
   justify-content: center;
 }
-
-.booking-cont {
-  width: 60%;
+.booking-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booking-cont h2, .booking-cont p{
+  padding: 0rem 2.5rem;
 }
 
 .booking-cont div {
@@ -127,7 +133,6 @@
   }
 
   .toggle-buttons {
-    margin-left: 30%;
     justify-content: center;
   }
   .step img, .booking-cont img {

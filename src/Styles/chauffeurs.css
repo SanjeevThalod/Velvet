@@ -33,7 +33,7 @@
   font-size: 2.8rem;
   font-weight: 500;
   padding: 0.625rem 1.875rem;
-  border: 1px solid #fff;
+  border: 1px solid #F1BE71;
   border-radius: 0.375rem;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(0.25rem);
@@ -57,25 +57,13 @@
   padding: 1.875rem 1.5625rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 0.9375rem;
   font-size: 0.95rem;
   line-height: 1.4;
   box-sizing: border-box;
   color: white;
   position: relative;
-}
-
-.left-card {
-  border-top-left-radius: 5rem;
-}
-
-.mid-card {
-  border-radius: 0;
-}
-
-.right-card {
-  border-bottom-right-radius: 5rem;
 }
 
 .chauffeur-icon {

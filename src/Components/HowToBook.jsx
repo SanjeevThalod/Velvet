@@ -3,8 +3,6 @@ import '../Styles/howToBook.css';
 import on1 from "../assets/HowToBook/on1.png";
 import on2 from "../assets/HowToBook/on2.png";
 import of1 from "../assets/HowToBook/of1.png";
-// import onlineImg from '../assets/booking/online.png';
-// import offlineImg from '../assets/booking/offline.png'; // when available
 
 function HowToBook() {
   const [mode, setMode] = useState('online');

@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="navbar-container">
       <div className="navbar">
         <div className="logo">
-          <h1>VELVET</h1>
+          <h1 className='gradient-text'>VELVET</h1>
           <span>EXPERIENCE</span>
         </div>
         <div className="nav-links">

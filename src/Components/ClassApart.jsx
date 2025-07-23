@@ -23,11 +23,12 @@ function ClassApart() {
 
   return (
     <section className="class-apart">
-      <h2>A Class Apart</h2>
+      <h2>Your next CAB ride, wrapped <span className='gradient-text'>LUXURY</span>
+      </h2>
       <div className="underline" />
       <div className="features-container">
         {features.map((feature, index) => (
-          <div className={`feature-card corner-${index}`} key={index}>
+          <div className={`feature-card corner`} key={index}>
             <div className="icon">{feature.icon}</div>
             <h3>{feature.title}</h3>
             <p>{feature.description}</p>
