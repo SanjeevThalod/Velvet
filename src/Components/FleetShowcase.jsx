@@ -1,24 +1,24 @@
 import React, { useEffect, useState } from "react";
 import "../Styles/FleetShowcase.css";
 // Image imports
-import img1 from "../assets/fleet/im1.png";
-import img2 from "../assets/fleet/im2.png";
-import img3 from "../assets/fleet/im3.png";
-import img4 from "../assets/fleet/im4.png";
-import img5 from "../assets/fleet/im5.png";
-import img6 from "../assets/fleet/im6.png";
-import img7 from "../assets/fleet/im7.png";
-import img8 from "../assets/fleet/im8.png";
+import img2 from "../assets/Fleet/im2.png";
+import img1 from "../assets/Fleet/im1.png";
+import img3 from "../assets/Fleet/im3.png";
+import img4 from "../assets/Fleet/im4.png";
+import img5 from "../assets/Fleet/im5.png";
+import img6 from "../assets/Fleet/im6.png";
+import img7 from "../assets/Fleet/im7.png";
+import img8 from "../assets/Fleet/im8.png";
 
 // Video imports
-import vd1 from "../assets/fleet/vd1.mp4";
-import vd2 from "../assets/fleet/vd2.mp4";
-import vd3 from "../assets/fleet/vd3.mp4";
-import vd4 from "../assets/fleet/vd4.mp4";
-import vd5 from "../assets/fleet/vd5.mp4";
-import vd6 from "../assets/fleet/vd6.mp4";
-import vd7 from "../assets/fleet/vd7.mp4";
-import vd8 from "../assets/fleet/vd8.mp4";
+import vd2 from "../assets/Fleet/vd2.mp4";
+import vd1 from "../assets/Fleet/vd1.mp4";
+import vd3 from "../assets/Fleet/vd3.mp4";
+import vd4 from "../assets/Fleet/vd4.mp4";
+import vd5 from "../assets/Fleet/vd5.mp4";
+import vd6 from "../assets/Fleet/vd6.mp4";
+import vd7 from "../assets/Fleet/vd7.mp4";
+import vd8 from "../assets/Fleet/vd8.mp4";
 
 const cars = [
   {
