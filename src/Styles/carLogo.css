@@ -58,3 +58,8 @@
     transform: translateX(-50%);
   }
 }
+@media screen and (max-width:600px) {
+  .car-logo-track{
+    gap: 60px;
+  }
+}

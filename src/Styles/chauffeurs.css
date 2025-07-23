@@ -1,6 +1,6 @@
 .chauffeurs {
   position: relative;
-  height: 110vh; /* More height as per image */
+  height: 110vh;
   width: 100%;
   overflow: hidden;
   font-family: 'Inter', sans-serif;
@@ -21,7 +21,7 @@
   z-index: 2;
   height: 100%;
   width: 100%;
-  padding: 60px 80px;
+  padding: 3.75rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,33 +32,33 @@
 .chauffeurs-title {
   font-size: 2.8rem;
   font-weight: 500;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   border: 1px solid #fff;
-  border-radius: 6px;
-  background-color: rgba(0, 0, 0, 0.5); /* subtle glass feel */
-  backdrop-filter: blur(4px);
-  margin-top: 10px;
+  border-radius: 0.375rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.25rem);
+  margin-top: 0.625rem;
 }
 
 .chauffeurs-cards {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 60px;
+  margin-top: 3.75rem;
   flex-wrap: wrap;
 }
 
 .chauffeur-card {
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid #d9a85c;
-  width: 300px;
-  min-height: 250px;
-  padding: 30px 25px;
+  width: 18.75rem;
+  min-height: 15.625rem;
+  padding: 1.875rem 1.5625rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 0.9375rem;
   font-size: 0.95rem;
   line-height: 1.4;
   box-sizing: border-box;
@@ -67,7 +67,7 @@
 }
 
 .left-card {
-  border-top-left-radius: 80px;
+  border-top-left-radius: 5rem;
 }
 
 .mid-card {
@@ -75,7 +75,7 @@
 }
 
 .right-card {
-  border-bottom-right-radius: 80px;
+  border-bottom-right-radius: 5rem;
 }
 
 .chauffeur-icon {
@@ -91,5 +91,51 @@
 .chauffeurs-footer {
   font-size: 1rem;
   color: #eee;
-  margin-top: 40px;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 64rem) {
+  .chauffeurs-overlay {
+    padding: 3rem 2.5rem;
+  }
+
+  .chauffeurs-title {
+    font-size: 2.2rem;
+    padding: 0.5rem 1.25rem;
+  }
+
+  .chauffeur-card {
+    width: 16rem;
+    padding: 1.5rem 1.25rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .chauffeurs {
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .chauffeurs-overlay {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .chauffeurs-title {
+    font-size: 1.8rem;
+  }
+
+  .chauffeurs-cards {
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .chauffeur-card {
+    width: 100%;
+    border-radius: 1rem !important;
+  }
+
+  .chauffeurs-footer {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
 }
