@@ -1,10 +1,10 @@
 import './App.css'
 import img from "./assets/velvet.png"
-import CarLogo from './Components/CarLogo'
-import Chauffeurs from './Components/Chaffeurs'
-import ClassApart from './Components/ClassApart'
-import Hero from './Components/Hero'
-import HowToBook from './Components/HowToBook'
+import CarLogo from './Components/CarLogo.jsx'
+import Chauffeurs from './Components/Chaffeurs.jsx'
+import ClassApart from './Components/ClassApart.jsx'
+import Hero from './Components/Hero.jsx'
+import HowToBook from './Components/HowToBook.jsx'
 
 function App() {
   return (
