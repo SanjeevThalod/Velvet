@@ -7,6 +7,7 @@
   font-family: 'Manrope';
   width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .sec-1 {
@@ -17,7 +18,6 @@
   max-height: 100vh;
   max-width: 100%;
   box-sizing: border-box;
-  flex-wrap: wrap;
 }
 
 .sec-1-texts {
@@ -114,17 +114,41 @@
   box-sizing: border-box;
   padding: 0rem 5rem;
 }
+.marquee-wrapper {
+  width: 100%;        /* full width or any custom width */
+  overflow: hidden;
+  white-space: nowrap;
+  background: black;  /* optional */
+  color: gold;        /* optional */
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-right: 2rem; /* spacing between repeats (optional) */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 
 .bentley-container {
   display: flex;
-  justify-content: flex-end;
 }
-
-.bentley {
-  width: 70%;
-  text-align: right;
+.bentley{
+  width: 100%;
 }
-
 .sec-4 {
   display: flex;
   align-items: center;
@@ -154,6 +178,7 @@
   .right-p {
     font-size: 1.2vw;
     text-align: left;
+    display: none;
   }
 
   .sec-1-texts {
@@ -177,10 +202,12 @@
     background-position: center;
     overflow-x: hidden;
   }
-
+  .sec-2{
+    flex-direction: column;
+  }
   .sec-2-left img{
-    height: 50vh;
     text-align: center;
+    max-width: 100%;
   }
   .sec-2-right{
     display: flex;
@@ -199,6 +226,6 @@
     font-size: 2vw;
   }
   .bold-text{
-    font-size: 3vw;
+    font-size: 32px;
   }
 }

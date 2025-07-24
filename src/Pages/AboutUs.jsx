@@ -42,25 +42,30 @@ export default function AboutUs() {
       </div>
 
       <div className="sec-3">
-        <div className='velvet-name'>Velvet Experience <GoDotFill/> Velvet Experience <GoDotFill/> Velvet Experience</div>
-        <div className='bentley-container'>
 
-          <img src={im4} alt="bentley" className='bentley'/>
+        <div class="marquee-wrapper">
+          <div class="marquee">
+            <div className='velvet-name'>Velvet Experience <GoDotFill /> Velvet Experience <GoDotFill /> Velvet Experience</div>
+          </div>
+        </div>
+
+        <div className='bentley-container'>
+          <img src={im4} alt="bentley" className='bentley' />
         </div>
       </div>
 
       <div className="sec-4">
         <div className="logo">
-            <h1 className='gradient-text' style={{"fontSize":"3rem"}}>VELVET</h1>
-            <span style={{"fontSize":"1.2rem"}}>EXPERIENCE</span>
-          </div>
-          <div className='f-list'>
-            <p>Blogs</p>
-            <p>Contact</p>
-            <p>Terms</p>
-            <p>Help and Support</p>
-            <p>Privacy Policy</p>
-          </div>
+          <h1 className='gradient-text' style={{ "fontSize": "3rem" }}>VELVET</h1>
+          <span style={{ "fontSize": "1.2rem" }}>EXPERIENCE</span>
+        </div>
+        <div className='f-list'>
+          <p>Blogs</p>
+          <p>Contact</p>
+          <p>Terms</p>
+          <p>Help and Support</p>
+          <p>Privacy Policy</p>
+        </div>
       </div>
     </div>
 
