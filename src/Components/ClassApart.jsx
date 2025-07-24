@@ -23,7 +23,7 @@ function ClassApart() {
 
   return (
     <section className="class-apart">
-      <h2>Your next <span style={{"fontWeight":"bold"}}>CAB</span> ride, Wrapped in <span className='gradient-text'>LUXURY</span>
+      <h2>Your next <span style={{"fontWeight":"bold"}} className='gradient-text'>CAB</span> ride, Wrapped in <span className='gradient-text'>LUXURY</span>
       </h2>
       <div className="underline" />
       <div className="features-container">
