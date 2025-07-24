@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Styles/hero.css';
-import Navbar from './Navbar';
 import video from "../assets/Videos/landing.mp4";
 
 function Hero() {
@@ -12,7 +11,6 @@ function Hero() {
       </video>
 
       <div className="overlay-content">
-        <Navbar />
         {/* You can add more overlay content here */}
       </div>
     </div>

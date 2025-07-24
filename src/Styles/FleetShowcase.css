@@ -129,6 +129,35 @@
   transform: scale(0.5) translateX(0);
   z-index: 0;
 }
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  z-index: 5;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.nav-button:hover {
+  background: rgba(255, 215, 0, 0.8); /* golden hover */
+}
+
+.nav-button.prev {
+  left: 10px;
+}
+
+.nav-button.next {
+  right: 10px;
+}
+
+
 /* ----------- Mobile & Tablet Responsive Styles ----------- */
 @media (max-width: 1024px) {
   .car-slide.left {
