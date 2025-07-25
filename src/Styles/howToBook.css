@@ -1,7 +1,7 @@
 .how-to-book {
   background-color: black;
   color: white;
-  padding: 3.75rem 7.5rem; /* 60px 120px */
+  padding: 3.75rem 1.5rem; /* 60px 120px */
   font-family: 'Manrope';
   display: flex;
   flex-direction: column;
@@ -97,24 +97,42 @@
 .booking-offline {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.booking-offline > img{
+  background-position: center;
+  object-fit: cover;
+  overflow-x: hidden;
+  max-width: 95%;
 }
 .booking-cont{
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 .booking-cont h2, .booking-cont p{
   padding: 0rem 2.5rem;
 }
 
-.booking-cont div {
+.booking-cont img{
+  height: 80vh;
+  max-width: auto;
+  margin-top: 20vh;
+}
+
+.booking-cont > div {
   font-size: 3rem; /* 48px */
   margin-bottom: 0.625rem; /* 10px */
+  max-width: 100%;
 }
 
 .booking-cont h2 {
-  margin: 0.9375rem 0; /* 15px 0 */
+  margin: 0.9375rem 0.9375rem; /* 15px 0 */
+  font-size: 48px;
 }
 
 .booking-cont > p {
@@ -135,7 +153,7 @@
   .toggle-buttons {
     justify-content: center;
   }
-  .step img, .booking-cont img {
+  .step img {
     width: 20rem; /* ~320px */
   }
   .step {
@@ -174,8 +192,7 @@
     width: 16rem; /* ~256px */
   }
    .booking-cont img{
-    width: 20rem;
-    margin: 30px 0px;
+    margin: 10px 0px;
    }
   .toggle-buttons button {
     width: 100%;
@@ -185,6 +202,10 @@
   .step {
     flex-direction: column;
     width: 100%;
+  }
+
+  .step-right{
+    flex-direction: column-reverse;
   }
 
   .step h3, .step h3 span {
@@ -210,5 +231,11 @@
 
   .booking-cont > p {
     font-size: 1rem; /* 16px */
+  }
+}
+
+@media screen and (max-width:850px) {
+  .booking-cont img{
+    width: 100%;
   }
 }

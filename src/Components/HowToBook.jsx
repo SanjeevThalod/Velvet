@@ -3,6 +3,8 @@ import '../Styles/howToBook.css';
 import on1 from "../assets/HowToBook/on1.png";
 import on2 from "../assets/HowToBook/on2.png";
 import of1 from "../assets/HowToBook/of1.png";
+import im1 from "../assets/HowToBook/im1.png";
+import { GoDotFill } from 'react-icons/go';
 
 function HowToBook() {
 
@@ -11,7 +13,7 @@ function HowToBook() {
   // Auto-switch every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
-      setMode(prev => (prev === 'online' ? 'offline' : 'online'));
+      // setMode(prev => (prev === 'online' ? 'offline' : 'online'));
     }, 10000);
 
     return () => clearInterval(interval); // cleanup on unmount
@@ -70,6 +72,10 @@ function HowToBook() {
               Walk up and let our concierge handle the rest.</p>
             <p>Book your chauffeured ride on the spot. No apps. No waiting. Just signature Velvet service.</p>
           </div>
+              <div className='velvet-name'>Velvet Experience <GoDotFill /> Velvet Experience <GoDotFill /> Velvet Experience</div>
+
+          <img src={im1} alt="" />
+          <p className="footer-note">Awaiting your arrival...</p>
         </div>
       )}
 
