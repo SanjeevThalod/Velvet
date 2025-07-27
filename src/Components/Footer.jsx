@@ -33,8 +33,8 @@ export default function Footer() {
           <span>Blog</span>
           <span>Contact</span>
           <span>Terms</span>
-          <span>Help and Support</span>
           <span>Privacy Policy</span>
+          <span>Care@velvetexperience.com</span>
         </div>
       </div>
 
